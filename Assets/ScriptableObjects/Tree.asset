@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89880391942eac147ba504f1bb5d76f5, type: 3}
   m_Name: Tree
   m_EditorClassIdentifier: 
-  name: Wood
-  prefab: {fileID: 1974105250760466, guid: bbb972e8372282f4093c9484693385fd, type: 3}
+  offset: {x: 0, y: 0, z: 0}
+  name: Tree
+  prefab: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
