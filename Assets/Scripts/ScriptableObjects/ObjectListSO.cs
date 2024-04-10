@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu()]
 public class ObjectListSO : ScriptableObject
 {
-    public List<ObjectSO> objects;
+    [SerializeField] public List<ObjectSO> objects;
 }

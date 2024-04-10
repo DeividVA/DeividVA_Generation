@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu()]
 public class ObjectSO : ScriptableObject
 {
-    [SerializeField] private Vector3 offset;
+    [SerializeField] public Vector3 prefabOffset;
     [SerializeField] string name;
-    public GameObject prefab;
+    [SerializeField] public GameObject prefab;
 }
